@@ -7,7 +7,9 @@ ExitProcess proto,dwExitCode:dword
 
 .data
 	; declare variables here
-	
+	filename BYTE "myfile.txt", 0	
+
+
 .code
 main proc
 	; write your code here
